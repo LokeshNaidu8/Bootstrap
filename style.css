@@ -1,0 +1,17 @@
+.heart{
+    width: 50px;
+    height:auto;
+}
+.developers{
+    height:400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+@media (max-width:575px) {
+    .developers{
+        height:300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
